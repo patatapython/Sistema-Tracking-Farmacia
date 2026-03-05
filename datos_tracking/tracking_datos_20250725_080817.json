@@ -1,0 +1,114 @@
+{
+  "timestamp": "20250725_080817",
+  "total_personas": 5,
+  "sistema_tracking": "Básico",
+  "personas": [
+    {
+      "id": 1,
+      "zona_actual": null,
+      "tiempo_en_zona_actual": 0,
+      "historial_zonas": [
+        {
+          "zona": "pollo",
+          "tiempo_entrada": "2025-07-25T08:07:43.794351",
+          "tiempo_salida": "2025-07-25T08:07:45.326097",
+          "duracion": 1.531746
+        },
+        {
+          "zona": "ternera",
+          "tiempo_entrada": "2025-07-25T08:07:52.215660",
+          "tiempo_salida": "2025-07-25T08:08:10.779445",
+          "duracion": 18.563785
+        }
+      ],
+      "centroid": [
+        592,
+        186
+      ],
+      "ultima_actualizacion": "2025-07-25T08:08:17.191377"
+    },
+    {
+      "id": 2,
+      "zona_actual": null,
+      "tiempo_en_zona_actual": 0,
+      "historial_zonas": [
+        {
+          "zona": "ternera",
+          "tiempo_entrada": "2025-07-25T08:07:15.995395",
+          "tiempo_salida": "2025-07-25T08:07:16.941578",
+          "duracion": 0.946183
+        }
+      ],
+      "centroid": [
+        556,
+        149
+      ],
+      "ultima_actualizacion": "2025-07-25T08:07:22.345290"
+    },
+    {
+      "id": 3,
+      "zona_actual": "ternera",
+      "tiempo_en_zona_actual": 6.42493,
+      "historial_zonas": [
+        {
+          "zona": "pollo",
+          "tiempo_entrada": "2025-07-25T08:07:59.914303",
+          "tiempo_salida": "2025-07-25T08:08:00.944071",
+          "duracion": 1.029768
+        },
+        {
+          "zona": "pollo",
+          "tiempo_entrada": "2025-07-25T08:08:09.862157",
+          "tiempo_salida": "2025-07-25T08:08:09.862157",
+          "duracion": 0.0
+        },
+        {
+          "zona": "pollo",
+          "tiempo_entrada": "2025-07-25T08:08:09.892722",
+          "tiempo_salida": "2025-07-25T08:08:10.126149",
+          "duracion": 0.233427
+        },
+        {
+          "zona": "pollo",
+          "tiempo_entrada": "2025-07-25T08:08:10.126149",
+          "tiempo_salida": "2025-07-25T08:08:10.160183",
+          "duracion": 0.034034
+        }
+      ],
+      "centroid": [
+        934,
+        470
+      ],
+      "ultima_actualizacion": "2025-07-25T08:08:17.191377"
+    },
+    {
+      "id": 4,
+      "zona_actual": "ternera",
+      "tiempo_en_zona_actual": 8.028228,
+      "historial_zonas": [
+        {
+          "zona": "ternera",
+          "tiempo_entrada": "2025-07-25T08:08:07.801653",
+          "tiempo_salida": "2025-07-25T08:08:08.896251",
+          "duracion": 1.094598
+        }
+      ],
+      "centroid": [
+        1196,
+        664
+      ],
+      "ultima_actualizacion": "2025-07-25T08:08:09.176147"
+    },
+    {
+      "id": 5,
+      "zona_actual": "ternera",
+      "tiempo_en_zona_actual": 1.50073,
+      "historial_zonas": [],
+      "centroid": [
+        1189,
+        670
+      ],
+      "ultima_actualizacion": "2025-07-25T08:08:15.892362"
+    }
+  ]
+}

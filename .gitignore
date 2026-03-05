@@ -1,0 +1,30 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+venv/
+env/
+.venv/
+
+# Modelos YOLO (descargar de Ultralytics)
+*.pt
+
+# Vídeos de prueba (demasiado grandes para GitHub)
+videos/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Claude Code
+.claude/
+CLAUDE.md
+
+# CSV generados (output)
+CSV_generados/

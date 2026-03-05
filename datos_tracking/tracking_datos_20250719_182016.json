@@ -1,0 +1,36 @@
+{
+  "timestamp": "20250719_182016",
+  "total_personas": 2,
+  "sistema_tracking": "Básico",
+  "personas": [
+    {
+      "id": 1,
+      "zona_actual": "mostrador",
+      "tiempo_en_zona_actual": 11.618012,
+      "historial_zonas": [],
+      "centroid": [
+        521,
+        184
+      ],
+      "ultima_actualizacion": "2025-07-19T18:20:16.551919"
+    },
+    {
+      "id": 2,
+      "zona_actual": null,
+      "tiempo_en_zona_actual": 0,
+      "historial_zonas": [
+        {
+          "zona": "mostrador",
+          "tiempo_entrada": "2025-07-19T18:20:13.312346",
+          "tiempo_salida": "2025-07-19T18:20:15.705786",
+          "duracion": 2.39344
+        }
+      ],
+      "centroid": [
+        651,
+        261
+      ],
+      "ultima_actualizacion": "2025-07-19T18:20:16.551919"
+    }
+  ]
+}

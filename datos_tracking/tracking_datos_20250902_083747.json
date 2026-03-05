@@ -1,0 +1,38 @@
+{
+  "timestamp": "20250902_083747",
+  "total_personas": 2,
+  "sistema_tracking": "Básico",
+  "directorio_salida": "datos_tracking",
+  "directorio_heatmap": "heatmaps",
+  "personas": [
+    {
+      "id": 1,
+      "zona_actual": null,
+      "tiempo_en_zona_actual": 0,
+      "historial_zonas": [],
+      "centroid": [
+        573,
+        143
+      ],
+      "ultima_actualizacion": "2025-09-02T08:37:47.313703"
+    },
+    {
+      "id": 2,
+      "zona_actual": null,
+      "tiempo_en_zona_actual": 0,
+      "historial_zonas": [
+        {
+          "zona": "mostrador",
+          "tiempo_entrada": "2025-09-02T08:37:45.328799",
+          "tiempo_salida": "2025-09-02T08:37:46.278427",
+          "duracion": 0.949628
+        }
+      ],
+      "centroid": [
+        592,
+        240
+      ],
+      "ultima_actualizacion": "2025-09-02T08:37:47.313703"
+    }
+  ]
+}

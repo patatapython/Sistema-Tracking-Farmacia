@@ -1,0 +1,18 @@
+{
+  "timestamp": "20250720_172815",
+  "total_personas": 1,
+  "sistema_tracking": "Básico",
+  "personas": [
+    {
+      "id": 1,
+      "zona_actual": null,
+      "tiempo_en_zona_actual": 0,
+      "historial_zonas": [],
+      "centroid": [
+        529,
+        226
+      ],
+      "ultima_actualizacion": "2025-07-20T17:28:15.563074"
+    }
+  ]
+}

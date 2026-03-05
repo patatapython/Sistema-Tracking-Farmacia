@@ -1,0 +1,91 @@
+{
+  "timestamp": "20250719_172650",
+  "total_personas": 1,
+  "sistema_tracking": "Básico",
+  "personas": [
+    {
+      "id": 2,
+      "zona_actual": null,
+      "tiempo_en_zona_actual": 0,
+      "historial_zonas": [
+        {
+          "zona": "zona_1",
+          "tiempo_entrada": "2025-07-19T17:25:38.730994",
+          "tiempo_salida": "2025-07-19T17:25:39.702304",
+          "duracion": 0.97131
+        },
+        {
+          "zona": "zona_1",
+          "tiempo_entrada": "2025-07-19T17:26:14.994695",
+          "tiempo_salida": "2025-07-19T17:26:22.191060",
+          "duracion": 7.196365
+        },
+        {
+          "zona": "zona_1",
+          "tiempo_entrada": "2025-07-19T17:26:23.722297",
+          "tiempo_salida": "2025-07-19T17:26:28.563639",
+          "duracion": 4.841342
+        },
+        {
+          "zona": "zona_1",
+          "tiempo_entrada": "2025-07-19T17:26:28.585654",
+          "tiempo_salida": "2025-07-19T17:26:28.664455",
+          "duracion": 0.078801
+        },
+        {
+          "zona": "zona_1",
+          "tiempo_entrada": "2025-07-19T17:26:28.908566",
+          "tiempo_salida": "2025-07-19T17:26:28.925569",
+          "duracion": 0.017003
+        },
+        {
+          "zona": "zona_1",
+          "tiempo_entrada": "2025-07-19T17:26:28.948568",
+          "tiempo_salida": "2025-07-19T17:26:29.123401",
+          "duracion": 0.174833
+        },
+        {
+          "zona": "zona_1",
+          "tiempo_entrada": "2025-07-19T17:26:29.140401",
+          "tiempo_salida": "2025-07-19T17:26:29.157401",
+          "duracion": 0.017
+        },
+        {
+          "zona": "zona_1",
+          "tiempo_entrada": "2025-07-19T17:26:29.274682",
+          "tiempo_salida": "2025-07-19T17:26:29.851701",
+          "duracion": 0.577019
+        },
+        {
+          "zona": "zona_1",
+          "tiempo_entrada": "2025-07-19T17:26:29.882794",
+          "tiempo_salida": "2025-07-19T17:26:30.099679",
+          "duracion": 0.216885
+        },
+        {
+          "zona": "zona_1",
+          "tiempo_entrada": "2025-07-19T17:26:30.131833",
+          "tiempo_salida": "2025-07-19T17:26:30.131833",
+          "duracion": 0.0
+        },
+        {
+          "zona": "zona_1",
+          "tiempo_entrada": "2025-07-19T17:26:30.163855",
+          "tiempo_salida": "2025-07-19T17:26:30.915760",
+          "duracion": 0.751905
+        },
+        {
+          "zona": "zona_1",
+          "tiempo_entrada": "2025-07-19T17:26:30.945789",
+          "tiempo_salida": "2025-07-19T17:26:32.919630",
+          "duracion": 1.973841
+        }
+      ],
+      "centroid": [
+        647,
+        180
+      ],
+      "ultima_actualizacion": "2025-07-19T17:26:50.461886"
+    }
+  ]
+}

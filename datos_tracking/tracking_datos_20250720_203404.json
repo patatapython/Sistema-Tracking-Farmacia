@@ -1,0 +1,127 @@
+{
+  "timestamp": "20250720_203404",
+  "total_personas": 3,
+  "sistema_tracking": "Básico",
+  "personas": [
+    {
+      "id": 1,
+      "zona_actual": null,
+      "tiempo_en_zona_actual": 0,
+      "historial_zonas": [
+        {
+          "zona": "cremas",
+          "tiempo_entrada": "2025-07-20T20:34:04.036565",
+          "tiempo_salida": "2025-07-20T20:34:04.341132",
+          "duracion": 0.304567
+        },
+        {
+          "zona": "cremas",
+          "tiempo_entrada": "2025-07-20T20:34:04.366132",
+          "tiempo_salida": "2025-07-20T20:34:04.391130",
+          "duracion": 0.024998
+        },
+        {
+          "zona": "cremas",
+          "tiempo_entrada": "2025-07-20T20:34:04.416130",
+          "tiempo_salida": "2025-07-20T20:34:04.416130",
+          "duracion": 0.0
+        }
+      ],
+      "centroid": [
+        643,
+        284
+      ],
+      "ultima_actualizacion": "2025-07-20T20:34:04.416130"
+    },
+    {
+      "id": 2,
+      "zona_actual": null,
+      "tiempo_en_zona_actual": 0,
+      "historial_zonas": [
+        {
+          "zona": "cremas",
+          "tiempo_entrada": "2025-07-20T20:33:39.448196",
+          "tiempo_salida": "2025-07-20T20:33:39.781207",
+          "duracion": 0.333011
+        },
+        {
+          "zona": "cremas",
+          "tiempo_entrada": "2025-07-20T20:33:41.817915",
+          "tiempo_salida": "2025-07-20T20:33:42.350593",
+          "duracion": 0.532678
+        },
+        {
+          "zona": "cremas",
+          "tiempo_entrada": "2025-07-20T20:33:56.440013",
+          "tiempo_salida": "2025-07-20T20:33:56.471012",
+          "duracion": 0.030999
+        },
+        {
+          "zona": "cremas",
+          "tiempo_entrada": "2025-07-20T20:33:56.565379",
+          "tiempo_salida": "2025-07-20T20:34:04.071563",
+          "duracion": 7.506184
+        },
+        {
+          "zona": "cremas",
+          "tiempo_entrada": "2025-07-20T20:34:04.071563",
+          "tiempo_salida": "2025-07-20T20:34:04.103125",
+          "duracion": 0.031562
+        },
+        {
+          "zona": "cremas",
+          "tiempo_entrada": "2025-07-20T20:34:04.103125",
+          "tiempo_salida": "2025-07-20T20:34:04.135120",
+          "duracion": 0.031995
+        },
+        {
+          "zona": "cremas",
+          "tiempo_entrada": "2025-07-20T20:34:04.135120",
+          "tiempo_salida": "2025-07-20T20:34:04.169133",
+          "duracion": 0.034013
+        },
+        {
+          "zona": "cremas",
+          "tiempo_entrada": "2025-07-20T20:34:04.169133",
+          "tiempo_salida": "2025-07-20T20:34:04.208131",
+          "duracion": 0.038998
+        },
+        {
+          "zona": "cremas",
+          "tiempo_entrada": "2025-07-20T20:34:04.208131",
+          "tiempo_salida": "2025-07-20T20:34:04.239133",
+          "duracion": 0.031002
+        },
+        {
+          "zona": "cremas",
+          "tiempo_entrada": "2025-07-20T20:34:04.341132",
+          "tiempo_salida": "2025-07-20T20:34:04.366132",
+          "duracion": 0.025
+        }
+      ],
+      "centroid": [
+        599,
+        206
+      ],
+      "ultima_actualizacion": "2025-07-20T20:34:04.416130"
+    },
+    {
+      "id": 3,
+      "zona_actual": "mostrador",
+      "tiempo_en_zona_actual": 0.399234,
+      "historial_zonas": [
+        {
+          "zona": "mostrador",
+          "tiempo_entrada": "2025-07-20T20:33:48.634979",
+          "tiempo_salida": "2025-07-20T20:33:50.954995",
+          "duracion": 2.320016
+        }
+      ],
+      "centroid": [
+        662,
+        471
+      ],
+      "ultima_actualizacion": "2025-07-20T20:34:04.416130"
+    }
+  ]
+}

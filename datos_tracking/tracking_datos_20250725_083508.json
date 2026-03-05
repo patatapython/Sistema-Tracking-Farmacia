@@ -1,0 +1,49 @@
+{
+  "timestamp": "20250725_083508",
+  "total_personas": 3,
+  "sistema_tracking": "Básico",
+  "directorio_salida": "datos_tracking",
+  "directorio_heatmap": "heatmaps",
+  "personas": [
+    {
+      "id": 2,
+      "zona_actual": "pollo",
+      "tiempo_en_zona_actual": 2.231962,
+      "historial_zonas": [],
+      "centroid": [
+        696,
+        276
+      ],
+      "ultima_actualizacion": "2025-07-25T08:35:08.237701"
+    },
+    {
+      "id": 3,
+      "zona_actual": null,
+      "tiempo_en_zona_actual": 0,
+      "historial_zonas": [
+        {
+          "zona": "ternera",
+          "tiempo_entrada": "2025-07-25T08:35:05.713295",
+          "tiempo_salida": "2025-07-25T08:35:08.175476",
+          "duracion": 2.462181
+        }
+      ],
+      "centroid": [
+        604,
+        388
+      ],
+      "ultima_actualizacion": "2025-07-25T08:35:08.237701"
+    },
+    {
+      "id": 1,
+      "zona_actual": null,
+      "tiempo_en_zona_actual": 0,
+      "historial_zonas": [],
+      "centroid": [
+        522,
+        184
+      ],
+      "ultima_actualizacion": "2025-07-25T08:35:08.237701"
+    }
+  ]
+}

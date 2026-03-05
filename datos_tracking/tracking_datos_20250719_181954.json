@@ -1,0 +1,29 @@
+{
+  "timestamp": "20250719_181954",
+  "total_personas": 2,
+  "sistema_tracking": "Básico",
+  "personas": [
+    {
+      "id": 1,
+      "zona_actual": "mostrador",
+      "tiempo_en_zona_actual": 9.076242,
+      "historial_zonas": [],
+      "centroid": [
+        521,
+        184
+      ],
+      "ultima_actualizacion": "2025-07-19T18:19:54.224296"
+    },
+    {
+      "id": 2,
+      "zona_actual": "mostrador",
+      "tiempo_en_zona_actual": 0.730796,
+      "historial_zonas": [],
+      "centroid": [
+        605,
+        205
+      ],
+      "ultima_actualizacion": "2025-07-19T18:19:54.224296"
+    }
+  ]
+}

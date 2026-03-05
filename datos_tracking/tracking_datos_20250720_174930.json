@@ -1,0 +1,97 @@
+{
+  "timestamp": "20250720_174930",
+  "total_personas": 4,
+  "sistema_tracking": "Básico",
+  "personas": [
+    {
+      "id": 1,
+      "zona_actual": null,
+      "tiempo_en_zona_actual": 0,
+      "historial_zonas": [
+        {
+          "zona": "cremas",
+          "tiempo_entrada": "2025-07-20T17:48:57.462190",
+          "tiempo_salida": "2025-07-20T17:48:57.587156",
+          "duracion": 0.124966
+        },
+        {
+          "zona": "estanterias",
+          "tiempo_entrada": "2025-07-20T17:48:59.649133",
+          "tiempo_salida": "2025-07-20T17:49:07.095900",
+          "duracion": 7.446767
+        },
+        {
+          "zona": "mostrador",
+          "tiempo_entrada": "2025-07-20T17:49:07.095900",
+          "tiempo_salida": "2025-07-20T17:49:25.852387",
+          "duracion": 18.756487
+        }
+      ],
+      "centroid": [
+        571,
+        210
+      ],
+      "ultima_actualizacion": "2025-07-20T17:49:30.560939"
+    },
+    {
+      "id": 2,
+      "zona_actual": null,
+      "tiempo_en_zona_actual": 0,
+      "historial_zonas": [
+        {
+          "zona": "mostrador",
+          "tiempo_entrada": "2025-07-20T17:48:28.010359",
+          "tiempo_salida": "2025-07-20T17:48:31.072999",
+          "duracion": 3.06264
+        }
+      ],
+      "centroid": [
+        556,
+        149
+      ],
+      "ultima_actualizacion": "2025-07-20T17:48:36.631404"
+    },
+    {
+      "id": 3,
+      "zona_actual": "mostrador",
+      "tiempo_en_zona_actual": 4.782478,
+      "historial_zonas": [
+        {
+          "zona": "estanterias",
+          "tiempo_entrada": "2025-07-20T17:49:25.010002",
+          "tiempo_salida": "2025-07-20T17:49:25.095152",
+          "duracion": 0.08515
+        },
+        {
+          "zona": "estanterias",
+          "tiempo_entrada": "2025-07-20T17:49:25.095152",
+          "tiempo_salida": "2025-07-20T17:49:25.134141",
+          "duracion": 0.038989
+        }
+      ],
+      "centroid": [
+        933,
+        471
+      ],
+      "ultima_actualizacion": "2025-07-20T17:49:30.560939"
+    },
+    {
+      "id": 4,
+      "zona_actual": null,
+      "tiempo_en_zona_actual": 0,
+      "historial_zonas": [
+        {
+          "zona": "mostrador",
+          "tiempo_entrada": "2025-07-20T17:49:22.789764",
+          "tiempo_salida": "2025-07-20T17:49:23.856270",
+          "duracion": 1.066506
+        }
+      ],
+      "centroid": [
+        1196,
+        664
+      ],
+      "ultima_actualizacion": "2025-07-20T17:49:24.153978"
+    }
+  ]
+}

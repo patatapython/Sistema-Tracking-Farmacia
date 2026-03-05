@@ -1,0 +1,432 @@
+{
+  "timestamp": "20250719_192007",
+  "total_personas": 6,
+  "sistema_tracking": "Básico",
+  "personas": [
+    {
+      "id": 1,
+      "zona_actual": null,
+      "tiempo_en_zona_actual": 0,
+      "historial_zonas": [
+        {
+          "zona": "cremas",
+          "tiempo_entrada": "2025-07-19T19:18:54.718769",
+          "tiempo_salida": "2025-07-19T19:18:55.002939",
+          "duracion": 0.28417
+        },
+        {
+          "zona": "cremas",
+          "tiempo_entrada": "2025-07-19T19:18:55.033086",
+          "tiempo_salida": "2025-07-19T19:18:55.065848",
+          "duracion": 0.032762
+        },
+        {
+          "zona": "cremas",
+          "tiempo_entrada": "2025-07-19T19:18:55.096960",
+          "tiempo_salida": "2025-07-19T19:18:55.096960",
+          "duracion": 0.0
+        },
+        {
+          "zona": "cremas",
+          "tiempo_entrada": "2025-07-19T19:18:55.129005",
+          "tiempo_salida": "2025-07-19T19:18:55.129005",
+          "duracion": 0.0
+        },
+        {
+          "zona": "cremas",
+          "tiempo_entrada": "2025-07-19T19:18:55.159445",
+          "tiempo_salida": "2025-07-19T19:18:55.159445",
+          "duracion": 0.0
+        },
+        {
+          "zona": "cremas",
+          "tiempo_entrada": "2025-07-19T19:18:55.191841",
+          "tiempo_salida": "2025-07-19T19:18:55.191841",
+          "duracion": 0.0
+        },
+        {
+          "zona": "cremas",
+          "tiempo_entrada": "2025-07-19T19:18:55.208842",
+          "tiempo_salida": "2025-07-19T19:18:55.208842",
+          "duracion": 0.0
+        },
+        {
+          "zona": "cremas",
+          "tiempo_entrada": "2025-07-19T19:18:55.237467",
+          "tiempo_salida": "2025-07-19T19:18:55.237467",
+          "duracion": 0.0
+        },
+        {
+          "zona": "cremas",
+          "tiempo_entrada": "2025-07-19T19:18:55.268494",
+          "tiempo_salida": "2025-07-19T19:18:55.268494",
+          "duracion": 0.0
+        },
+        {
+          "zona": "cremas",
+          "tiempo_entrada": "2025-07-19T19:18:55.286495",
+          "tiempo_salida": "2025-07-19T19:18:55.286495",
+          "duracion": 0.0
+        },
+        {
+          "zona": "mostrador",
+          "tiempo_entrada": "2025-07-19T19:18:56.568360",
+          "tiempo_salida": "2025-07-19T19:19:21.479886",
+          "duracion": 24.911526
+        },
+        {
+          "zona": "mostrador",
+          "tiempo_entrada": "2025-07-19T19:19:22.055458",
+          "tiempo_salida": "2025-07-19T19:19:22.553098",
+          "duracion": 0.49764
+        }
+      ],
+      "centroid": [
+        565,
+        210
+      ],
+      "ultima_actualizacion": "2025-07-19T19:19:26.813524"
+    },
+    {
+      "id": 2,
+      "zona_actual": "mostrador",
+      "tiempo_en_zona_actual": 23.771735,
+      "historial_zonas": [
+        {
+          "zona": "cremas",
+          "tiempo_entrada": "2025-07-19T19:18:30.803615",
+          "tiempo_salida": "2025-07-19T19:18:31.147227",
+          "duracion": 0.343612
+        },
+        {
+          "zona": "cremas",
+          "tiempo_entrada": "2025-07-19T19:18:33.220236",
+          "tiempo_salida": "2025-07-19T19:18:33.796312",
+          "duracion": 0.576076
+        },
+        {
+          "zona": "cremas",
+          "tiempo_entrada": "2025-07-19T19:18:47.565249",
+          "tiempo_salida": "2025-07-19T19:18:47.596307",
+          "duracion": 0.031058
+        },
+        {
+          "zona": "cremas",
+          "tiempo_entrada": "2025-07-19T19:18:47.690299",
+          "tiempo_salida": "2025-07-19T19:18:54.751382",
+          "duracion": 7.061083
+        },
+        {
+          "zona": "cremas",
+          "tiempo_entrada": "2025-07-19T19:18:54.751382",
+          "tiempo_salida": "2025-07-19T19:18:54.782351",
+          "duracion": 0.030969
+        },
+        {
+          "zona": "cremas",
+          "tiempo_entrada": "2025-07-19T19:18:54.782351",
+          "tiempo_salida": "2025-07-19T19:18:54.813286",
+          "duracion": 0.030935
+        },
+        {
+          "zona": "cremas",
+          "tiempo_entrada": "2025-07-19T19:18:54.813286",
+          "tiempo_salida": "2025-07-19T19:18:54.844308",
+          "duracion": 0.031022
+        },
+        {
+          "zona": "cremas",
+          "tiempo_entrada": "2025-07-19T19:18:54.844308",
+          "tiempo_salida": "2025-07-19T19:18:54.877308",
+          "duracion": 0.033
+        },
+        {
+          "zona": "cremas",
+          "tiempo_entrada": "2025-07-19T19:18:54.877308",
+          "tiempo_salida": "2025-07-19T19:18:54.900309",
+          "duracion": 0.023001
+        },
+        {
+          "zona": "cremas",
+          "tiempo_entrada": "2025-07-19T19:18:55.002939",
+          "tiempo_salida": "2025-07-19T19:18:55.033086",
+          "duracion": 0.030147
+        },
+        {
+          "zona": "cremas",
+          "tiempo_entrada": "2025-07-19T19:18:55.319493",
+          "tiempo_salida": "2025-07-19T19:18:55.347496",
+          "duracion": 0.028003
+        }
+      ],
+      "centroid": [
+        977,
+        537
+      ],
+      "ultima_actualizacion": "2025-07-19T19:20:07.202904"
+    },
+    {
+      "id": 3,
+      "zona_actual": null,
+      "tiempo_en_zona_actual": 0,
+      "historial_zonas": [
+        {
+          "zona": "mostrador",
+          "tiempo_entrada": "2025-07-19T19:18:40.180860",
+          "tiempo_salida": "2025-07-19T19:18:42.314837",
+          "duracion": 2.133977
+        },
+        {
+          "zona": "mostrador",
+          "tiempo_entrada": "2025-07-19T19:18:54.718769",
+          "tiempo_salida": "2025-07-19T19:19:01.016287",
+          "duracion": 6.297518
+        }
+      ],
+      "centroid": [
+        1196,
+        673
+      ],
+      "ultima_actualizacion": "2025-07-19T19:19:01.016287"
+    },
+    {
+      "id": 4,
+      "zona_actual": null,
+      "tiempo_en_zona_actual": 0,
+      "historial_zonas": [
+        {
+          "zona": "estanterias",
+          "tiempo_entrada": "2025-07-19T19:18:59.995900",
+          "tiempo_salida": "2025-07-19T19:19:00.284381",
+          "duracion": 0.288481
+        },
+        {
+          "zona": "estanterias",
+          "tiempo_entrada": "2025-07-19T19:19:00.316401",
+          "tiempo_salida": "2025-07-19T19:19:00.347216",
+          "duracion": 0.030815
+        },
+        {
+          "zona": "estanterias",
+          "tiempo_entrada": "2025-07-19T19:19:00.378389",
+          "tiempo_salida": "2025-07-19T19:19:00.985286",
+          "duracion": 0.606897
+        },
+        {
+          "zona": "mostrador",
+          "tiempo_entrada": "2025-07-19T19:19:00.985286",
+          "tiempo_salida": "2025-07-19T19:19:01.016287",
+          "duracion": 0.031001
+        },
+        {
+          "zona": "estanterias",
+          "tiempo_entrada": "2025-07-19T19:19:01.016287",
+          "tiempo_salida": "2025-07-19T19:19:01.078416",
+          "duracion": 0.062129
+        },
+        {
+          "zona": "mostrador",
+          "tiempo_entrada": "2025-07-19T19:19:01.078416",
+          "tiempo_salida": "2025-07-19T19:19:01.078416",
+          "duracion": 0.0
+        },
+        {
+          "zona": "estanterias",
+          "tiempo_entrada": "2025-07-19T19:19:01.078416",
+          "tiempo_salida": "2025-07-19T19:19:01.110412",
+          "duracion": 0.031996
+        },
+        {
+          "zona": "mostrador",
+          "tiempo_entrada": "2025-07-19T19:19:01.110412",
+          "tiempo_salida": "2025-07-19T19:19:01.234984",
+          "duracion": 0.124572
+        },
+        {
+          "zona": "estanterias",
+          "tiempo_entrada": "2025-07-19T19:19:01.234984",
+          "tiempo_salida": "2025-07-19T19:19:01.234984",
+          "duracion": 0.0
+        },
+        {
+          "zona": "mostrador",
+          "tiempo_entrada": "2025-07-19T19:19:01.234984",
+          "tiempo_salida": "2025-07-19T19:19:01.266175",
+          "duracion": 0.031191
+        },
+        {
+          "zona": "estanterias",
+          "tiempo_entrada": "2025-07-19T19:19:01.266175",
+          "tiempo_salida": "2025-07-19T19:19:02.249330",
+          "duracion": 0.983155
+        },
+        {
+          "zona": "mostrador",
+          "tiempo_entrada": "2025-07-19T19:19:02.249330",
+          "tiempo_salida": "2025-07-19T19:19:02.280636",
+          "duracion": 0.031306
+        },
+        {
+          "zona": "estanterias",
+          "tiempo_entrada": "2025-07-19T19:19:02.280636",
+          "tiempo_salida": "2025-07-19T19:19:02.311394",
+          "duracion": 0.030758
+        },
+        {
+          "zona": "mostrador",
+          "tiempo_entrada": "2025-07-19T19:19:02.311394",
+          "tiempo_salida": "2025-07-19T19:19:02.342945",
+          "duracion": 0.031551
+        },
+        {
+          "zona": "estanterias",
+          "tiempo_entrada": "2025-07-19T19:19:02.342945",
+          "tiempo_salida": "2025-07-19T19:19:02.390284",
+          "duracion": 0.047339
+        },
+        {
+          "zona": "mostrador",
+          "tiempo_entrada": "2025-07-19T19:19:02.390284",
+          "tiempo_salida": "2025-07-19T19:19:02.452951",
+          "duracion": 0.062667
+        },
+        {
+          "zona": "estanterias",
+          "tiempo_entrada": "2025-07-19T19:19:02.452951",
+          "tiempo_salida": "2025-07-19T19:19:03.074986",
+          "duracion": 0.622035
+        },
+        {
+          "zona": "mostrador",
+          "tiempo_entrada": "2025-07-19T19:19:03.074986",
+          "tiempo_salida": "2025-07-19T19:19:03.107984",
+          "duracion": 0.032998
+        },
+        {
+          "zona": "estanterias",
+          "tiempo_entrada": "2025-07-19T19:19:03.107984",
+          "tiempo_salida": "2025-07-19T19:19:04.041157",
+          "duracion": 0.933173
+        },
+        {
+          "zona": "mostrador",
+          "tiempo_entrada": "2025-07-19T19:19:04.041157",
+          "tiempo_salida": "2025-07-19T19:19:04.445232",
+          "duracion": 0.404075
+        },
+        {
+          "zona": "estanterias",
+          "tiempo_entrada": "2025-07-19T19:19:04.445232",
+          "tiempo_salida": "2025-07-19T19:19:05.237404",
+          "duracion": 0.792172
+        },
+        {
+          "zona": "mostrador",
+          "tiempo_entrada": "2025-07-19T19:19:05.237404",
+          "tiempo_salida": "2025-07-19T19:19:05.301408",
+          "duracion": 0.064004
+        },
+        {
+          "zona": "estanterias",
+          "tiempo_entrada": "2025-07-19T19:19:05.301408",
+          "tiempo_salida": "2025-07-19T19:19:05.366408",
+          "duracion": 0.065
+        },
+        {
+          "zona": "mostrador",
+          "tiempo_entrada": "2025-07-19T19:19:05.366408",
+          "tiempo_salida": "2025-07-19T19:19:06.052263",
+          "duracion": 0.685855
+        },
+        {
+          "zona": "estanterias",
+          "tiempo_entrada": "2025-07-19T19:19:06.052263",
+          "tiempo_salida": "2025-07-19T19:19:06.083931",
+          "duracion": 0.031668
+        },
+        {
+          "zona": "mostrador",
+          "tiempo_entrada": "2025-07-19T19:19:06.083931",
+          "tiempo_salida": "2025-07-19T19:19:06.113470",
+          "duracion": 0.029539
+        },
+        {
+          "zona": "estanterias",
+          "tiempo_entrada": "2025-07-19T19:19:06.113470",
+          "tiempo_salida": "2025-07-19T19:19:06.566368",
+          "duracion": 0.452898
+        },
+        {
+          "zona": "mostrador",
+          "tiempo_entrada": "2025-07-19T19:19:06.566368",
+          "tiempo_salida": "2025-07-19T19:19:06.629009",
+          "duracion": 0.062641
+        },
+        {
+          "zona": "estanterias",
+          "tiempo_entrada": "2025-07-19T19:19:06.629009",
+          "tiempo_salida": "2025-07-19T19:19:06.723416",
+          "duracion": 0.094407
+        },
+        {
+          "zona": "mostrador",
+          "tiempo_entrada": "2025-07-19T19:19:06.723416",
+          "tiempo_salida": "2025-07-19T19:19:07.970428",
+          "duracion": 1.247012
+        },
+        {
+          "zona": "estanterias",
+          "tiempo_entrada": "2025-07-19T19:19:07.970428",
+          "tiempo_salida": "2025-07-19T19:19:18.466483",
+          "duracion": 10.496055
+        },
+        {
+          "zona": "mostrador",
+          "tiempo_entrada": "2025-07-19T19:19:18.466483",
+          "tiempo_salida": "2025-07-19T19:19:21.931404",
+          "duracion": 3.464921
+        },
+        {
+          "zona": "estanterias",
+          "tiempo_entrada": "2025-07-19T19:19:21.931404",
+          "tiempo_salida": "2025-07-19T19:19:23.490281",
+          "duracion": 1.558877
+        }
+      ],
+      "centroid": [
+        561,
+        156
+      ],
+      "ultima_actualizacion": "2025-07-19T19:19:31.858960"
+    },
+    {
+      "id": 5,
+      "zona_actual": null,
+      "tiempo_en_zona_actual": 0,
+      "historial_zonas": [
+        {
+          "zona": "mostrador",
+          "tiempo_entrada": "2025-07-19T19:19:17.160662",
+          "tiempo_salida": "2025-07-19T19:19:18.093839",
+          "duracion": 0.933177
+        }
+      ],
+      "centroid": [
+        1215,
+        658
+      ],
+      "ultima_actualizacion": "2025-07-19T19:19:18.436484"
+    },
+    {
+      "id": 6,
+      "zona_actual": null,
+      "tiempo_en_zona_actual": 0,
+      "historial_zonas": [],
+      "centroid": [
+        76,
+        459
+      ],
+      "ultima_actualizacion": "2025-07-19T19:19:19.735261"
+    }
+  ]
+}

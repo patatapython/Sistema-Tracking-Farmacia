@@ -1,0 +1,44 @@
+{
+  "timestamp": "20250909_083722",
+  "total_personas": 2,
+  "sistema_tracking": "Básico",
+  "directorio_salida": "datos_tracking",
+  "directorio_heatmap": "heatmaps",
+  "personas": [
+    {
+      "id": 3,
+      "zona_actual": null,
+      "tiempo_en_zona_actual": 0,
+      "historial_zonas": [],
+      "centroid": [
+        785,
+        383
+      ],
+      "ultima_actualizacion": "2025-09-09T08:37:22.801932"
+    },
+    {
+      "id": 1,
+      "zona_actual": "mostrador",
+      "tiempo_en_zona_actual": 14.610198,
+      "historial_zonas": [
+        {
+          "zona": "cremas",
+          "tiempo_entrada": "2025-09-09T08:36:58.768024",
+          "tiempo_salida": "2025-09-09T08:36:58.889055",
+          "duracion": 0.121031
+        },
+        {
+          "zona": "estanterias",
+          "tiempo_entrada": "2025-09-09T08:37:01.037241",
+          "tiempo_salida": "2025-09-09T08:37:08.212360",
+          "duracion": 7.175119
+        }
+      ],
+      "centroid": [
+        1021,
+        507
+      ],
+      "ultima_actualizacion": "2025-09-09T08:37:22.801932"
+    }
+  ]
+}

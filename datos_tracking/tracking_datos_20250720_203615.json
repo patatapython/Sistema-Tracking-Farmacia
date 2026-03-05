@@ -1,0 +1,66 @@
+{
+  "timestamp": "20250720_203615",
+  "total_personas": 3,
+  "sistema_tracking": "Básico",
+  "personas": [
+    {
+      "id": 1,
+      "zona_actual": null,
+      "tiempo_en_zona_actual": 0,
+      "historial_zonas": [],
+      "centroid": [
+        577,
+        234
+      ],
+      "ultima_actualizacion": "2025-07-20T20:36:15.355993"
+    },
+    {
+      "id": 2,
+      "zona_actual": "cremas",
+      "tiempo_en_zona_actual": 5.073881,
+      "historial_zonas": [
+        {
+          "zona": "cremas",
+          "tiempo_entrada": "2025-07-20T20:35:52.963198",
+          "tiempo_salida": "2025-07-20T20:35:53.292029",
+          "duracion": 0.328831
+        },
+        {
+          "zona": "cremas",
+          "tiempo_entrada": "2025-07-20T20:35:55.369182",
+          "tiempo_salida": "2025-07-20T20:35:55.945721",
+          "duracion": 0.576539
+        },
+        {
+          "zona": "cremas",
+          "tiempo_entrada": "2025-07-20T20:36:10.181306",
+          "tiempo_salida": "2025-07-20T20:36:10.221306",
+          "duracion": 0.04
+        }
+      ],
+      "centroid": [
+        654,
+        234
+      ],
+      "ultima_actualizacion": "2025-07-20T20:36:15.355993"
+    },
+    {
+      "id": 3,
+      "zona_actual": null,
+      "tiempo_en_zona_actual": 0,
+      "historial_zonas": [
+        {
+          "zona": "mostrador",
+          "tiempo_entrada": "2025-07-20T20:36:02.254101",
+          "tiempo_salida": "2025-07-20T20:36:04.653029",
+          "duracion": 2.398928
+        }
+      ],
+      "centroid": [
+        535,
+        252
+      ],
+      "ultima_actualizacion": "2025-07-20T20:36:15.355993"
+    }
+  ]
+}

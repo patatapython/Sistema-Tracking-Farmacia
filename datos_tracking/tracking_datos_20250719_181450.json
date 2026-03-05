@@ -1,0 +1,42 @@
+{
+  "timestamp": "20250719_181450",
+  "total_personas": 2,
+  "sistema_tracking": "Básico",
+  "personas": [
+    {
+      "id": 1,
+      "zona_actual": null,
+      "tiempo_en_zona_actual": 0,
+      "historial_zonas": [],
+      "centroid": [
+        515,
+        183
+      ],
+      "ultima_actualizacion": "2025-07-19T18:14:50.923596"
+    },
+    {
+      "id": 2,
+      "zona_actual": null,
+      "tiempo_en_zona_actual": 0,
+      "historial_zonas": [
+        {
+          "zona": "cremas",
+          "tiempo_entrada": "2025-07-19T18:14:46.767073",
+          "tiempo_salida": "2025-07-19T18:14:47.113929",
+          "duracion": 0.346856
+        },
+        {
+          "zona": "cremas",
+          "tiempo_entrada": "2025-07-19T18:14:49.038163",
+          "tiempo_salida": "2025-07-19T18:14:49.460065",
+          "duracion": 0.421902
+        }
+      ],
+      "centroid": [
+        678,
+        272
+      ],
+      "ultima_actualizacion": "2025-07-19T18:14:50.923596"
+    }
+  ]
+}
