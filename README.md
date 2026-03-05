@@ -1,245 +1,181 @@
 <div align="center">
-  <img src="Logo/logo.jpg" width="150" alt="Logo del Sistema">
-  <h1 align="center">Sistema de Conteo y Seguimiento de Personas en Farmacias</h1>
-  <p align="center">Análisis avanzado de comportamiento de clientes mediante visión por ordenador</p>
+
+<img src="Logo/logo.jpg" width="140" alt="System Logo">
+
+# Pharmacy People Counting & Tracking System
+
+**Computer vision-powered customer flow analysis for retail pharmacies**
+
+[![Python](https://img.shields.io/badge/Python-3.8+-3776AB?style=for-the-badge&logo=python&logoColor=white)](https://python.org)
+[![YOLOv5](https://img.shields.io/badge/YOLOv5-Detection-00FFFF?style=for-the-badge&logo=yolo&logoColor=black)](https://github.com/ultralytics/yolov5)
+[![YOLOv8](https://img.shields.io/badge/YOLOv8-Tracking-FF6F00?style=for-the-badge&logo=yolo&logoColor=white)](https://github.com/ultralytics/ultralytics)
+[![OpenCV](https://img.shields.io/badge/OpenCV-4.x-5C3EE8?style=for-the-badge&logo=opencv&logoColor=white)](https://opencv.org)
+[![License](https://img.shields.io/badge/License-MIT-green?style=for-the-badge)](LICENSE)
+
+<br>
+
+[**Leer en Espanol**](README_ES.md)
+
 </div>
 
-<div align="center">
-  <a href="https://python.org">
-    <img src="https://img.shields.io/badge/Python-3.8%2B-blue?logo=python" alt="Python">
-  </a>
-  <a href="#">
-    <img src="https://img.shields.io/badge/Status-Production-brightgreen" alt="Status">
-  </a>
-  <a href="#">
-    <img src="https://img.shields.io/badge/License-MIT-yellow" alt="License">
-  </a>
-</div>
+---
 
-## 🌟 Características Destacadas
+## Overview
 
-| Característica | Descripción |
-|----------------|-------------|
-| **Detección precisa** | Uso de YOLOv5 y YOLOv8 para detección de personas con alta precisión |
-| **Seguimiento avanzado** | DeepSORT para seguimiento persistente incluso con oclusiones |
-| **Análisis espacial** | Definición de zonas poligonales y líneas virtuales para análisis detallado |
-| **Mapas de calor** | Visualización intuitiva de patrones de tráfico y densidad |
-| **Privacidad garantizada** | Pixelado en tiempo real y procesamiento local sin transmisión externa |
-| **Interfaz intuitiva** | Diseño pensado para usuarios no técnicos con CustomTkinter |
+Master's Thesis (TFM) project: a real-time system for **counting and tracking people** inside pharmacies using deep learning. It detects customers with YOLO, tracks them with DeepSORT, analyzes dwell time per zone, and generates heatmaps — all with built-in **GDPR-compliant privacy** (real-time pixelation, local processing only).
 
+---
 
-## 🌟 Galería
+## Key Features
 
-### **Interfaz Principal**
+<table>
+<tr>
+<td width="50%">
 
-La interfaz principal de la aplicación, desarrollada con CustomTkinter, ofrece un diseño moderno y accesible. Desde aquí, se pueden acceder a todas las herramientas de configuración, procesamiento y visualización.
+**Detection & Counting**
+- YOLOv5 person detection with virtual counting lines
+- Entry/exit tracking with real-time totals
+- Configurable confidence thresholds
+- JSON export of all counting data
 
-| ![Interfaz principal de la aplicación, mostrando las diferentes pestañas de configuración y control.](extras/Imagenes/frontal1.jpg) | ![Segunda captura de la interfaz principal, detallando las opciones de procesamiento en tiempo real.](extras/Imagenes/frontal2.jpg) |
+</td>
+<td width="50%">
+
+**Tracking & Analytics**
+- YOLOv8 + DeepSORT persistent tracking
+- Polygonal zone definition with dwell time
+- Automatic heatmap generation
+- Per-person trajectory and zone history
+
+</td>
+</tr>
+<tr>
+<td width="50%">
+
+**Privacy & Compliance**
+- Real-time face/body pixelation (toggle with `P`)
+- 100% local processing — no external data transfer
+- GDPR compliant by design
+
+</td>
+<td width="50%">
+
+**User Interface**
+- Desktop GUI built with CustomTkinter
+- Interactive line and zone configuration tools
+- Integrated video preview and controls
+- One-click processing start/stop
+
+</td>
+</tr>
+</table>
+
+---
+
+## Gallery
+
+### Main Interface
+
+| ![Main interface](extras/Imagenes/frontal1.jpg) | ![Processing panel](extras/Imagenes/frontal2.jpg) |
 | :---: | :---: |
-| *Vista principal del panel de control* | *Opciones avanzadas de procesamiento y control* |
+| *Control panel* | *Processing & real-time controls* |
 
-### **Herramientas de Configuración**
+### Configuration Tools
 
-El sistema incluye herramientas interactivas que simplifican la configuración de las zonas de análisis. Con solo unos clics, puedes definir líneas virtuales para el conteo de personas y zonas poligonales para el seguimiento de comportamientos.
-
-| ![Interfaz para la creación de líneas virtuales para el conteo de entradas y salidas.](extras/Imagenes/crear_linea.jpg) | ![Interfaz para la definición de zonas poligonales para el análisis detallado de comportamiento.](extras/Imagenes/Crear_zonas.jpg) |
+| ![Line creator](extras/Imagenes/crear_linea.jpg) | ![Zone creator](extras/Imagenes/Crear_zonas.jpg) |
 | :---: | :---: |
-| *Definición de líneas virtuales (`crear_linea.py`)* | *Creación de zonas poligonales (`crear_zonas.py`)* |
+| *Virtual counting lines* | *Polygonal zone definition* |
 
-### **Módulo de Conteo de Personas**
+### Counting & Tracking
 
-El módulo de conteo utiliza el modelo YOLOv5 para detectar y cuantificar a las personas que cruzan las líneas definidas. Puedes elegir visualizar el vídeo con o sin pixelado para proteger la privacidad.
-
-| ![Sistema de conteo de personas sin aplicar el pixelado de privacidad.](extras/Imagenes/conteo_sinpixelado.jpg) | ![Mismo sistema de conteo con pixelado en tiempo real de los individuos detectados.](extras/Imagenes/conteo_pixelado.jpg) |
+| ![Counting](extras/Imagenes/conteo_sinpixelado.jpg) | ![Privacy mode](extras/Imagenes/conteo_pixelado.jpg) |
 | :---: | :---: |
-| *Conteo sin pixelado en tiempo real* | *Conteo con pixelado para mayor privacidad* |
+| *Real-time people counting* | *Privacy pixelation enabled* |
 
-### **Módulo de Tracking y Mapa de Calor**
-
-El módulo de seguimiento avanzado, basado en YOLOv8 y DeepSORT, permite un monitoreo detallado de las trayectorias y genera mapas de calor para identificar las zonas de mayor afluencia.
-
-| ![Sistema de seguimiento avanzado mostrando las trayectorias de los individuos identificados.](extras/Imagenes/tra2.jpg) | ![Mapa de calor generado a partir del movimiento de los individuos, destacando en colores cálidos las zonas de alta afluencia.](extras/Imagenes/mapas_calor.jpg) |
+| ![Tracking](extras/Imagenes/tra2.jpg) | ![Heatmap](extras/Imagenes/mapas_calor.jpg) |
 | :---: | :---: |
-| *Seguimiento de trayectorias en vivo* | *Visualización del mapa de calor generado* |
+| *DeepSORT trajectory tracking* | *Generated heatmap* |
 
+---
 
-## Resumen
-Este Trabajo Fin de Máster (TFM) presenta un sistema de conteo y seguimiento de personas en entornos de farmacias utilizando visión por computadora y aprendizaje profundo. El sistema utiliza modelos preentrenados de YOLO (You Only Look Once) para la detección de objetos, específicamente personas, y algoritmos de seguimiento para monitorear su movimiento a través de zonas definidas y líneas de conteo.
-
-El objetivo principal es proporcionar herramientas para analizar el flujo de clientes en farmacias, generando datos sobre conteo de entradas/salidas, tiempo de permanencia en zonas específicas y mapas de calor para visualizar áreas de alta actividad. Esto puede ayudar en la optimización de layouts, gestión de personal y mejora de la experiencia del cliente.
-
-## Objetivos
-1. **Detección y Conteo de Personas:** Implementar un sistema que cuente personas cruzando líneas específicas (ej. entradas/salidas).
-2. **Seguimiento en Zonas:** Monitorear el tiempo que las personas pasan en zonas predefinidas del espacio.
-3. **Generación de Mapas de Calor:** Crear visualizaciones de densidad de movimiento para identificar áreas populares.
-4. **Interfaz Gráfica:** Desarrollar una UI simple para configuración y visualización de resultados.
-5. **Análisis de Datos:** Almacenar y exportar datos para análisis posterior.
-
-## Metodología
-### Tecnologías Utilizadas
-- **Python 3.8+**
-- **YOLOv5** para conteo de personas y **YOLOv8** para seguimiento avanzado de personas.
-- **OpenCV** para procesamiento de video e imágenes.
-- **SORT** (Simple Online and Realtime Tracking) para seguimiento de objetos.
-- **Tkinter** para la interfaz gráfica.
-- **JSON** para almacenamiento de configuraciones y datos.
-
-### Flujo de Trabajo
+## Architecture
 
 ```mermaid
 graph TD
-    A[Interfaz Gráfica] -->|Pestaña Herramientas| B[Configuración]
-    B --> B1[Definir Líneas Virtuales]
-    B --> B2[Definir Zonas Poligonales]
-    A -->|Pestaña Procesamiento| C[Captura y Detección]
-    C --> C1[Conteo Básico YOLOv5]
-    C --> C2[Tracking Avanzado YOLOv8+DeepSORT]
-    C1 --> D[Exportación]
+    A[GUI - CustomTkinter] -->|Tools Tab| B[Configuration]
+    B --> B1[Define Virtual Lines]
+    B --> B2[Define Polygonal Zones]
+    A -->|Processing Tab| C[Detection & Analysis]
+    C --> C1[YOLOv5 Counting]
+    C --> C2[YOLOv8 + DeepSORT Tracking]
+    C1 --> D[Export]
     C2 --> D
     D --> D1[datos_conteo/ JSON]
     D --> D2[datos_tracking/ JSON]
     D --> D3[heatmaps/ PNG]
-
-    classDef phase fill:#lightgrey,stroke:#333,stroke-width:2px;
-    classDef module fill:#lightblue,stroke:#333;
-    classDef output fill:#lightgreen,stroke:#333;
-
-    class A phase;
-    class B,B1,B2 phase;
-    class C,C1,C2 phase;
-    class D,D1,D2,D3 phase;
-    class C1,C2 module;
-    class D1,D2,D3 output;
 ```
 
-### Componentes Principales
-1. **Configuración de Líneas y Zonas:**
-   - Scripts para definir líneas de conteo y zonas poligonales interactivamente (`crear_linea.py` y `crear_zonas.py`).
+---
 
-2. **Sistema de Conteo:**
-   - Detecta personas cruzando líneas definidas (`conteo.py`).
-   - Registra entradas y salidas.
+## Tech Stack
 
-3. **Sistema de Seguimiento:**
-   - Rastrea trayectorias de personas (`tracking.py`).
-   - Calcula tiempo en zonas.
-   - Genera mapas de calor basados en posiciones.
+<p align="center">
+  <img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white" alt="Python">
+  <img src="https://img.shields.io/badge/YOLOv5-00FFFF?style=flat-square&logo=yolo&logoColor=black" alt="YOLOv5">
+  <img src="https://img.shields.io/badge/YOLOv8-FF6F00?style=flat-square&logo=yolo&logoColor=white" alt="YOLOv8">
+  <img src="https://img.shields.io/badge/OpenCV-5C3EE8?style=flat-square&logo=opencv&logoColor=white" alt="OpenCV">
+  <img src="https://img.shields.io/badge/DeepSORT-333333?style=flat-square" alt="DeepSORT">
+  <img src="https://img.shields.io/badge/CustomTkinter-2B2B2B?style=flat-square" alt="CustomTkinter">
+  <img src="https://img.shields.io/badge/NumPy-013243?style=flat-square&logo=numpy&logoColor=white" alt="NumPy">
+</p>
 
-4. **Interfaz Gráfica:**
-   - UI principal para lanzar configuraciones y ejecuciones (`uiFarmacia_logo.py`).
+---
 
-5. **Almacenamiento de Datos:**
-   - Resultados en JSON en `datos_conteo/` y `datos_tracking/`.
-   - Mapas de calor como imágenes PNG en `heatmaps/`.
-6. **Medidas de Privacidad:**
-  - Pixelado en tiempo real de personas detectadas mediante tecla 'p'.
-  - Procesamiento local sin transmisión a servicios externos.
-  - Cumplimiento RGPD mediante anonimización y minimización de datos.
+## Quick Start
 
-## Estructura del Proyecto
-```
-├── conteo.py
-├── crear_linea.py
-├── crear_zonas.py
-├── README.md
-├── requirements.txt
-├── tracking.py
-├── uiFarmacia_logo.py
-├── yolov5s.pt
-├── yolov8s.pt
-├── config/
-│   ├── line_coordinates.json
-│   └── zonas_config.json
-├── datos_conteo/
-├── datos_tracking/
-├── heatmaps/
-├── Logo/
-│   └── logo.jpg
-└── videos/
-```
+### Prerequisites
 
-## 🛠️ Instalación
-
-### Requisitos previos
 - Python 3.8+
-- pip (gestor de paquetes de Python)
+- pip
 
-### Pasos de instalación
-1.  Clonar el repositorio:
-    ```bash
-    git clone https://github.com/patatapython/Sistema-Tracking-Farmacia.git
-    cd farmacia_traking_TFM
-    ```
-2.  Crear y activar un entorno virtual (recomendado):
-    ```bash
-    python -m venv venv
-    venv\Scripts\activate  # Windows
-    # source venv/bin/activate  # Linux/Mac
-    ```
-3.  Instalar dependencias:
-    ```bash
-    pip install -r requirements.txt
-    ```
-4.  Descargar los modelos YOLO (no incluidos por tamaño):
-    ```bash
-    # YOLOv5s (~15MB)
-    wget https://github.com/ultralytics/yolov5/releases/download/v7.0/yolov5s.pt
-    # YOLOv8s (~22MB)
-    wget https://github.com/ultralytics/assets/releases/download/v8.2.0/yolov8s.pt
-    ```
+### Installation
 
-## Uso
-### Interfaz Gráfica Principal
-El sistema se opera completamente desde la interfaz gráfica, que sirve como punto de entrada único para todas las funcionalidades:
+```bash
+git clone https://github.com/patatapython/Sistema-Tracking-Farmacia.git
+cd Sistema-Tracking-Farmacia
+python -m venv venv
+source venv/bin/activate  # Linux/Mac
+# venv\Scripts\activate   # Windows
+pip install -r requirements.txt
+```
 
-1.  **Iniciar la interfaz**:
-    ```bash
-    python uiFarmacia_logo.py
-    ```
-2.  **Configuración Inicial** (pestaña "Herramientas"):
-    -   Seleccionar fuente de video (webcam o archivo)
-    -   Especificar directorio de salida
-    -   Ejecutar "Crear Línea" para definir líneas de conteo mediante clics del ratón
-    -   Ejecutar "Crear Zonas" para definir áreas poligonales con nombres descriptivos
-    -   Los archivos de configuración se guardan automáticamente como `line_coordinates.json` y `zonas_config.json`
-3.  **Procesamiento y Análisis** (pestaña "Procesamiento y Control"):
-    -   Seleccionar fuentes de video y archivos de configuración
-    -   Presionar "Iniciar Conteo" para activar el sistema de conteo básico (YOLOv5)
-    -   Presionar "Iniciar Tracking" para activar el sistema avanzado de seguimiento (YOLOv8 + DeepSORT)
-    -   Controlar en tiempo real mediante botones de la interfaz (no mediante teclas)
-    -   Visualizar resultados en la ventana principal de la interfaz
+### Download YOLO Models
 
-### Flujo de Trabajo Completo
-El sistema sigue un flujo estructurado en cuatro fases:
-1. **Configuración**: Definición de líneas y zonas mediante la interfaz
-2. **Captura**: Selección de fuentes de video y parámetros desde la interfaz
-3. **Procesamiento**: Ejecución de módulos de conteo/tracking en segundo plano
-4. **Exportación**: Generación automática de JSON y mapas de calor al finalizar
+```bash
+# YOLOv5s (~15MB)
+wget https://github.com/ultralytics/yolov5/releases/download/v7.0/yolov5s.pt
+# YOLOv8s (~22MB)
+wget https://github.com/ultralytics/assets/releases/download/v8.2.0/yolov8s.pt
+```
 
-### Controles desde la Interfaz
-- **Configuración**:
-  - Botones para iniciar herramientas de configuración
-  - Selección de directorios y fuentes de video
-- **Ejecución**:
-  - Botones "Iniciar"/"Detener" para cada módulo
-  - Visualización integrada de resultados
-  - Opciones para activar/desactivar pixelado y mapas de calor
-  - Exportación automática al finalizar
+### Run
 
+```bash
+python uiFarmacia_logo.py
+```
 
+---
 
-### Parámetros
-- `--video`: Ruta al video de entrada (requerido).
-- `--model`: Modelo YOLO a usar (yolov5s.pt o yolov8s.pt, default: yolov5s.pt).
-- `--conf`: Umbral de confianza para detecciones (default: 0.25).
+## Usage
 
-## Resultados
-- Archivos JSON en `datos_conteo/` con conteos de entradas/salidas.
-- Archivos JSON en `datos_tracking/` con tiempos por zona por ID de objeto.
-- Mapas de calor en `heatmaps/` como PNG.
+1. **Configure** (Tools tab): define counting lines and polygonal zones interactively
+2. **Process** (Processing tab): select video source, start counting or tracking
+3. **Analyze**: results are automatically exported to `datos_conteo/`, `datos_tracking/`, and `heatmaps/`
 
-### Estructura de Datos
-**Conteo** (`datos_conteo/*.json`):
+<details>
+<summary><b>Output data formats</b></summary>
+
+**Counting** (`datos_conteo/*.json`):
 ```json
 {
   "entradas": 15,
@@ -268,25 +204,52 @@ El sistema sigue un flujo estructurado en cuatro fases:
           "tiempo_salida": "2025-09-05T14:40:30",
           "duracion": 30.0
         }
-      ],
-      "centroid": [320, 240],
-      "ultima_actualizacion": "2025-09-05T14:45:34"
+      ]
     }
   ]
 }
 ```
 
+</details>
 
-##  Créditos
+---
 
-Este proyecto fue desarrollado como Trabajo Fin de Máster por:
+## Project Structure
 
-- **Guillermo** - [PatataPython](https://github.com/patatapython/).
+```
+Sistema-Tracking-Farmacia/
+├── uiFarmacia_logo.py      Main GUI application
+├── conteo.py               YOLOv5 people counting module
+├── tracking.py             YOLOv8 + DeepSORT tracking module
+├── crear_linea.py          Interactive counting line creator
+├── crear_zonas.py          Interactive polygonal zone creator
+├── config/                 Line and zone configuration files
+├── datos_conteo/           Counting results (JSON)
+├── datos_tracking/         Tracking results (JSON)
+├── heatmaps/               Generated heatmap images (PNG)
+├── extras/Imagenes/        Screenshots for documentation
+├── Logo/                   Application logo
+└── requirements.txt        Python dependencies
+```
 
-Agradecimientos especiales a:
-- [Ultralytics](https://ultralytics.com/) por los modelos YOLO
-- [OpenCV](https://opencv.org/) por la biblioteca de visión por computadora
+---
 
-## 📜 Licencia
+## Credits
 
-Este proyecto está bajo la Licencia MIT - consulta el archivo [LICENSE](LICENSE) para más detalles.
+Developed as a **Master's Thesis (TFM)** by **Guillermo** — [patatapython](https://github.com/patatapython/)
+
+Special thanks to:
+- [Ultralytics](https://ultralytics.com/) for YOLO models
+- [OpenCV](https://opencv.org/) for computer vision tools
+
+---
+
+## License
+
+Distributed under the MIT License. See [LICENSE](LICENSE) for details.
+
+---
+
+<div align="center">
+<sub>Built with Python and open-source computer vision</sub>
+</div>
